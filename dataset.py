@@ -33,7 +33,7 @@ dataset_config = {
     "saliency_map_dir": "/home/lm1/projects/HSG/saliency_results/composite",
     "glob_img_feat_dir":"/home/lm1/projects/HSG/cap_eval_with_grounding/img_feats/composite" 
   },
-  "img_par_neg_obj": {   # img_par_2182
+  "img_par_neg_obj": {
     "input_json": "/home/lm1/projects/HSG/long_context_dataset/img_par_with_neg_obj_2182.json",
     "image_directory": "/home/lm1/datasets/vg/images",
     "gpt_txt": "/home/lm1/projects/HSG/long_context_dataset/img_par_with_neg_obj_by_gpt.txt",
@@ -72,46 +72,6 @@ dataset_config = {
     "oneformer_mask_dir": "/home/lm1/projects/HSG/oneformer_results/thumb",
     "saliency_map_dir": "/home/lm1/projects/HSG/saliency_results/thumb",
     "glob_img_feat_dir":"/home/lm1/projects/HSG/cap_eval_with_grounding/img_feats/thumb" 
-  },
-#   "coco_val2014_paragraph_by_vlms_sampled": {
-#     "input_json": "/home/lm1/projects/HSG/long_context_dataset/coco_val2014_paragraph_by_vlms_sampled.json",
-#     "image_directory": "/home/lm1/datasets/THumB/mscoco/THumB_images",
-#     "gpt_txt": "/home/lm1/projects/HSG/long_context_dataset/coco_val2014_paragraph_by_vlms_sampled_hsg_by_gpt_v3_json.txt",
-#     "glip_mask_dir": "/home/lm1/projects/HSG/cap_eval_with_grounding/glip_res_with_sam/thumb",  #
-#     "sam_mask_dir": "/home/lm1/projects/HSG/sam_results/masks/karpathy_coco_val2014",
-#     "oneformer_mask_dir": "/home/lm1/projects/HSG/oneformer_results/karpathy_coco_val2014",
-#     "saliency_map_dir": "/home/lm1/projects/HSG/saliency_results/karpathy_coco_val2014",
-#     "glob_img_feat_dir":"/home/lm1/projects/HSG/cap_eval_with_grounding/img_feats/karpathy_coco_val2014"
-#   }
-  "locnar1025": {
-    "input_json": "/home/lm1/projects/HSG/long_context_dataset/loc_nar_test_yzw.json",
-    "image_directory": "/home/lm1/datasets/open-images-v6/test/data",
-    "gpt_txt": "/home/lm1/projects/HSG/long_context_dataset/locnar1025_hsg_by_gpt_v2.txt",
-    "glip_mask_dir": "/home/lm1/projects/HSG/cap_eval_with_grounding/glip_res_with_sam/locnar1025",
-    "sam_mask_dir": "/home/lm1/projects/HSG/sam_results/masks/LocNar1025",
-    "oneformer_mask_dir": "/home/lm1/projects/HSG/oneformer_results/locnar1025",
-    "saliency_map_dir": "/home/lm1/projects/HSG/saliency_results/locnar1025", 
-    "glob_img_feat_dir":"/home/lm1/projects/HSG/cap_eval_with_grounding/img_feats/locnar1025"
-  },
-  "img_par_plausible": {
-    "input_json": "/home/lm1/projects/HSG/long_context_dataset/img_par_plausible.json",
-    "image_directory": "/home/lm1/datasets/vg/images",
-    "gpt_txt": "/home/lm1/projects/HSG/long_context_dataset/",  #正在跑，跑完还需要regen
-    "glip_mask_dir": "/home/lm1/projects/HSG/cap_eval_with_grounding/glip_res_with_sam/thumb",  # 需要等GLIP
-    "sam_mask_dir": "/home/lm1/projects/HSG/sam_results/masks/ImageParagraphs",
-    "oneformer_mask_dir": "/home/lm1/projects/HSG/oneformer_results/ImageParagraphs",
-    "saliency_map_dir": "/home/lm1/projects/HSG/saliency_results/ImageParagraphs",
-    "glob_img_feat_dir":"/home/lm1/projects/HSG/cap_eval_with_grounding/img_feats/ImageParagraphs"
-  },
-  "locnar_plausible": {
-    "input_json": "/home/lm1/projects/HSG/long_context_dataset/loc_nar_plausible_new.json",
-    "image_directory": "/home/lm1/datasets/open-images-v6/test/data",
-    "gpt_txt": "/home/lm1/projects/HSG/long_context_dataset/locnar_plausible_new_hsg_by_gpt_v3_json.txt",
-    "glip_mask_dir": "/home/lm1/projects/HSG/cap_eval_with_grounding/glip_res_with_sam/locnar_plausible_new",
-    "sam_mask_dir": "/home/lm1/projects/HSG/sam_results/masks/locnar_test_images_new",
-    "oneformer_mask_dir": "/home/lm1/projects/HSG/oneformer_results/locnar_test_images_new",
-    "saliency_map_dir": "/home/lm1/projects/HSG/saliency_results/locnar_test_images_new", 
-    "glob_img_feat_dir":"/home/lm1/projects/HSG/cap_eval_with_grounding/img_feats/locnar_test_images_new"
   }
 }
 
