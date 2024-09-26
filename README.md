@@ -14,7 +14,7 @@ python test_flickr8k_exp.py
 Our code is in part based on LAVIS, SAM, OneFormer, GLIP, and PFAN. We thank the authors and appreciate their great works!
 
 
-# Citation
+## Citation
 If you find the paper or this code useful, pleases consider citing:
 ```
 @inproceedings{
