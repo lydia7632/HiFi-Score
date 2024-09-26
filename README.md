@@ -9,8 +9,8 @@ python test_flickr8k_exp.py
 
 ## The ParaEval Dataset is coming soon...
 
-<!--
-# Acknowledgement
+
+## Acknowledgement
 Our code is in part based on LAVIS, SAM, OneFormer, GLIP, and PFAN. We thank the authors and appreciate their great works!
 
 <!--
