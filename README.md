@@ -1,13 +1,13 @@
 # HiFi-Score
 This is the official implementation for HiFi-Score: Fine-grained Image Description Evaluation with Hierarchical Parsing Graphs (ECCV2024).
 
-# Test HiFi-Score on Flickr8K-Expert
+## Test HiFi-Score on Flickr8K-Expert
 ```
-python python test_flickr8k_exp.py
+python test_flickr8k_exp.py
 ```
 
 
-# The ParaEval Dataset is coming soon...
+## The ParaEval Dataset is coming soon...
 
 <!--
 # Acknowledgement
