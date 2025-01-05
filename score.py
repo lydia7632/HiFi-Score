@@ -216,7 +216,7 @@ def print_score(res_data, dataset):
         tauvariant = 'c'
         calculate_correlation(itc_scores, itm_scores, itc_itm_scores, human_scores, tauvariant)
     return itc_scores, itm_scores, itc_itm_scores
-    
+
 def calculate_scores(res_data, gamma = 1):
     score_types = {'add':[]}
 
